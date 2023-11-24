@@ -1,7 +1,7 @@
 import requests
 import json
 
-base = "https://data.mongodb-api.com/app/data-mvzgw/endpoint/data/v1/action/"
+base = "https://data.mongodb-api.com/app//endpoint/data/v1/action/"
 
 
 def actualiza(empresa, where, update):
@@ -35,7 +35,7 @@ def response(url, payload):
     headers = {
         'Content-Type': 'application/json',
         'Access-Control-Request-Headers': '*',
-        'api-key': '9hU95BVQrxRVm1vbxvP86e73mgT5UfCREtiwow6YtWh05vGO3ITOZblgjKdwzv8H',
+        'api-key': '',
         'Accept': 'application/ejson'
     }
 
